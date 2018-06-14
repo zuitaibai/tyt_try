@@ -1,7 +1,8 @@
 .wraper_d{background:#fff;}
 .header_d{background: #4381E6;}
 .header_d p{font-size: 18px;color:#FFFFFF;line-height: 70px;margin-left:20px;}
-.header_d a{width:20px;height:20px;background:url(../img/ss_001.png) no-repeat;margin:16px 17px 0 0;}
+.header_d a{width:40px;height:36px;background:url(../img/ss_001.png) no-repeat;margin:4px 4px 0 0;}
+.header_d a:active{background:url(../img/ss_001_click.png);}
 .main_d{margin-top:16px;}
 
 .top{color:#666;font-size:14px;padding:0 20px;}
@@ -50,6 +51,8 @@
 .footbtns{text-align: right;height:58px;line-height: 58px;vertical-align: middle;padding:0 20px;}
 .footbtns .btn_1,.footbtns .btn_1border{margin-left:8px;}
 .footbtns2{border-top: 1px solid #E7E7E7;height:66px;line-height:66px;vertical-align: middle;text-align: center;}
+
+.footbtns .btn_1,.footbtns .btn_1border,.footbtns2 .btn_1{font-weight:bold;}
 
 
 

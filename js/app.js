@@ -244,7 +244,8 @@
             'img/s_001_2.png',
             'img/s_002_2.png',
             'img/s_016.png',
-            'img/s_017.png'
+            'img/s_017.png',
+            'img/ss_001_click.png'
         ]
     };
     app.work = {

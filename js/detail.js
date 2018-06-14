@@ -1,4 +1,4 @@
-$('.pop_event').on('click.pop', '#showTel', function() {
+$('.pop_event').on('click.pop','#showTel',function(){
     $('#telArea').show();
     $(this).hide();
 });
@@ -26,14 +26,11 @@ var btns = [
 ];
 $('#footbtns').html(btns.join('\n'));
 
-$('#detailMain').on('loads', function(event, params) {
+$('#detailMain').on('loads',function(event,params){
     params = params || {};
-    if (!params.id) return;
+    if(!params.id) return;
     init(params.id);
 });
 var id = app.util.getQueryString('id');
-if (id) init(+id);
-
-function init(id) {
-    console.log(id);
-}
+if(id) init(+id);
+function init(id){console.log(id);}

@@ -18,7 +18,7 @@ a{text-decoration: none;}
 .pop_form{margin:15px 0 48px;}
 .pop_textfields{border: 1px solid #4381E6;border-radius: 2px;font-size: 16px;width:440px;margin:0 auto;}
 .pop_label{color: #4381E6;margin-left:10px;padding-top:2px;line-height: 42px;}
-.pop_textfield{border:none;background:#fff;width:336px;margin:5px 0 0 10px;height:34px;line-height: 34px;padding:0;font-size: 100%;}
+.pop_textfield{border:none;background:#fff;width:336px;margin:9px 0 0 10px;height:26px;line-height: 26px;padding:0;font-size: 100%;}
 .pop_textfield:focus{outline: none;}
 .pop_rt{margin-right:10px;padding-top:2px;line-height: 42px;}
 .pop_choosePhone{display:inline-block;position: relative;width:130px;text-align: center;}
